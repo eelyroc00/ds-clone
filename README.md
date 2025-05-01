@@ -22,7 +22,7 @@ A minimal clone of chat.deepseek.com with basic chat functionality using OpenAI 
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/eelyroc00/ds-clone
 cd ds-clone
 ```
 
