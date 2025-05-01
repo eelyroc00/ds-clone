@@ -77,4 +77,6 @@ Alongside sharding, replication plays a crucial role in ensuring reslience and p
 
 ## How AI tools were used
 
-ChatGPT-o3 was used to sketch the overall tech stack, user flows, REST API, data model, and conversation logging. Cursor (Claude 3.7) was used to create the initial chat UI implementation with persistence and REST APIs, then OpenAI TTS integration, conversation history, and profile page. I also heavily used it to resolve bugs.
+ChatGPT-o3 was used to sketch the overall tech stack, user flows, REST API, data model, and conversation logging. Cursor (Claude 3.7) was used to create the initial chat UI implementation with persistence and REST APIs, then OpenAI TTS integration, conversation history, and profile page. I also heavily used it to resolve bugs. 
+
+Next step I would take is to have Claude help cleanup and further modularize the codebase e.g. removing hardcoded constants, adding API abstraction, consistent error handling, state management, etc.  
